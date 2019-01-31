@@ -1,7 +1,7 @@
 package test;
 
 /**
- * 
+ * this is a class to record informations of a human
  * @author Ruba
  *
  */
@@ -9,7 +9,7 @@ public class Human {
 	
 private String name;
 private int age;
-private double gender;
+private String gender;
 
 /**
  * This constructs a human with specific name,age and gender
@@ -18,14 +18,14 @@ private double gender;
  * @param gender the gender of the human
  */
 
-public Human(String name,int age,double gender) {
+public Human(String name,int age,String gender) {
 	this.name=name;
 	this.age=age;
 	this.gender=gender;
 }
 /**
  * 
- * @return
+ * @return the human name
  */
 
 public String getName() {
@@ -33,7 +33,7 @@ public String getName() {
 }
 /**
  * 
- * @return
+ * @return the human age
  */
 public int getAge() {
 	return age;
@@ -41,9 +41,9 @@ public int getAge() {
 
 /**
  * 
- * @return
+ * @return the human gender
  */
-public double getGender() {
+public String getGender() {
 	return gender ;
 }
 	
